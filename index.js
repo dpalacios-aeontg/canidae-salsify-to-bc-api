@@ -71,7 +71,7 @@ async function main() {
     return;
   }
   
-  // 4. Generates JSON files for each product.
+  // 3. Generates JSON files for each product.
   for(const product of salsifyProducts) {
     const template = {
       'featured-ingredients': [],
